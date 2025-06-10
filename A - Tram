@@ -1,0 +1,9 @@
+n = int(input())
+exit = 0 
+total = 0 
+for i in range (n) :
+  s = list(map(int,input().split()))
+  total = total - s[0] + s[1]
+  exit = max(total,exit)
+ 
+print(exit)
