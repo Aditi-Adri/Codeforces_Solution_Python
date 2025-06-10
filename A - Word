@@ -1,0 +1,13 @@
+s = input()
+up = 0 
+lo = 0 
+ 
+for i in s : 
+  if i.islower() :
+    lo += 1 
+  else : 
+    up += 1 
+if up > lo : 
+  print(s.upper())
+else :
+  print(s.lower())
