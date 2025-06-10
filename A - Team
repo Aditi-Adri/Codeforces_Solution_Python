@@ -1,0 +1,13 @@
+n=int(input())
+cnt = 0 
+final = 0 
+ 
+for i in range (n) :
+  s = input().split()
+  cnt = 0
+  for i in s : 
+    if i == '1' :
+      cnt += 1 
+  if cnt >= 2 :
+    final += 1 
+print(final)
