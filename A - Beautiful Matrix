@@ -1,0 +1,10 @@
+cnt = 0 
+for i in range (5) :
+  s = list(map(int,input().split()))
+  if (i == 0 or i == 1 or i == 3 or i == 4) and 1 in s : 
+    index = s.index(1)
+    cnt = abs(i-2) + abs(index-2)
+  elif i == 2 and 1 in s :
+    cnt = abs((s.index(1)) - 2)
+  
+print(cnt)
