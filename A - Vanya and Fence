@@ -1,0 +1,9 @@
+n = list(map(int,input().split()))
+ar = list(map(int,input().split()))
+ht = 0
+for i in range (n[0]) :
+  if ar[i] <= n[1] :
+    ht += 1
+  else :
+    ht += 2
+print(ht)
