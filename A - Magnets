@@ -1,0 +1,17 @@
+n = int(input())
+cnt = 1
+prev = ''
+ 
+for i in range (n) :
+  s = input()
+  if s == '01' and prev == '10' :
+    cnt += 1 
+  elif s == '01' and prev == '01' :
+    pass
+  elif s == '10' and prev == '10' :
+    pass
+  elif s == '10' and prev == '01' :
+    cnt += 1 
+  prev = s 
+ 
+print(cnt)
