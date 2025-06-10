@@ -1,0 +1,16 @@
+n = input()
+s = "YES"
+cnt = 0 
+ 
+for i in n : 
+  if i == '4' or i == '7'  : 
+    cnt += 1 
+    
+ 
+cnt = str(cnt)
+for i in cnt : 
+  if i not in '47': 
+    s = "NO"
+    break
+ 
+print(s)
