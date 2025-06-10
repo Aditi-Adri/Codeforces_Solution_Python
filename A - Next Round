@@ -1,0 +1,7 @@
+n = list(map(int,input().split()))
+final = 0 
+ar = list(map(int,input().split()))
+for i in range (len(ar)) :
+  if ar[i] >= ar[n[1]-1] and ar[i] > 0 :
+    final += 1 
+print(final)
