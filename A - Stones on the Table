@@ -1,0 +1,13 @@
+a = int(input())
+n = list(input())
+cnt = 0 
+i = 0 
+ 
+while i < (len(n)-1) :
+  if n[i] == n[i+1] :
+    del n[i+1]
+    cnt += 1 
+  else :
+    i += 1 
+ 
+print(cnt)
