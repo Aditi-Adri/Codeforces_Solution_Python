@@ -1,0 +1,9 @@
+t = int(input())
+while t : 
+  t -= 1 
+  n = int(input())
+  print(2*n-3)
+  for i in range (2,n+1) :
+    print(i,1,i)
+  for j in range (2,n) :
+    print(j-1,j,n)
