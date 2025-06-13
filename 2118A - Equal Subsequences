@@ -1,0 +1,9 @@
+t = int(input())
+for i in range (t) :
+  a,b = list(map(int,input().split()))
+  if a == b and b != 0  :
+    print("1"*b)
+  elif b == 0 :
+    print("0"*a)
+  else :
+    print("1"*b+"0"*(a-b))
